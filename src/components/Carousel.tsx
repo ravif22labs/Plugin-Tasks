@@ -2,6 +2,7 @@ import LeftArrowIcon from "../assets/LeftArrowIcon";
 import RightArrowIcon from "../assets/RightArrowIcon";
 
 function Carousel() {
+  const;
   const imgArray = [
     { id: 1, src: "/img1.jpg" },
     { id: 2, src: "./img2.jpg" },
@@ -13,6 +14,10 @@ function Carousel() {
     { id: 2, src: "./vid2.mp4" },
     { id: 3, src: "./vid3.mp4" },
   ];
+
+  function nextSlide(event: Event) {
+    console.log(event.target);
+  }
 
   return (
     <div>
